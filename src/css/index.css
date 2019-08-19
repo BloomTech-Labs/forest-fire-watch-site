@@ -1,0 +1,19 @@
+header {
+  background-color: #999;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+header nav ul a {
+  padding: 0 2em;
+  text-decoration: none;
+}
+header nav ul a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: #999;
+  text-align: center;
+}
