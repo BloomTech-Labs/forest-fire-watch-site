@@ -1,29 +1,56 @@
 <!doctype html>
 <html lang='en'>
   <head>
-    <meta charset='UTF-8'>
+    <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <!-- Custom CSS -->
   <link rel='stylesheet' href='../src/css/index.css'>
     <title>FireFlight | Home</title>
   </head>
-  <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+  <body class='container-fluid'>
+      <div class='d-flex flex-column flex-md-row align-items-center p-3 mb-3 bg-white border-bottom shadow-sm'>
+          <h5 class='my-0 font-weight-normal'>FireFlight</h5>
+          <nav class='nav navbar-expand-md'>
+            <ul class='navbar-nav'>
+              <li class='nav-item'><a class='nav-link p-2 text-dark' href='#'><strong>Home</strong></a></li>
+              <li class='nav-item'><a class='nav-link p-2 text-dark' href='#'><strong>About</strong></a></li>
+              <li class='nav-item'><a class='nav-link p-2 text-dark' href='#'><strong>Contact</strong></a></li>
+            </ul>            
+          </nav>
+          <div class='btn-group'>
+            <form class='form-inline'>
+          <a class='btn btn-light' href='#'>Sign up</a>
+          <a class='btn btn-light' href='#'>Login</a>
+            </form>
+          </div>
+        </div>
+        <!-- Slider -->
+        <div class='border-bottom shadow-sm'>
+          <ul class='list-unstyled text-center'>
+            <li>Wildfire Fact 1</li>
+            <li class='d-none'>Fact 2</li>
+            <li class='d-none'>Fact 3</li>
+          </ul>
+        </div>
+    <!-- Main -->
     <main>
-
+        <div class='jumbotron'>
+            <div class='container'>
+              <h1 class='display-3'>FireFlight</h1>
+              <p>This is where the awesome marketing slogan will go once I come up with it. It will be great though, I assure you. Once I come up with it.</p>
+              <p><a class='btn btn-light btn-lg' href='#' role='button'>Learn more &raquo;</a></p>
+            </div>
+          </div>
     </main>
-
-    <footer>
-        <h2>Footer</h2>
-    </footer>
-
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <!-- Popper JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+<!-- Bootstrap JS -->
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
   </body>
 </html>
