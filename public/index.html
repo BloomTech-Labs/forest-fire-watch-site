@@ -6,6 +6,8 @@
     <meta name='viewport' content='width=device-width,initial-scale=1'>
     <!-- Bootstrap CSS -->
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Prompt&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
   <link rel='stylesheet' href='../src/css/index.css'>
   <link rel='icon' href='fire.ico' type='image/x-icon'>
@@ -31,13 +33,21 @@
             </form>
           </div>
         </div>
-        <!-- Slider -->
-        <div class='slider border-bottom shadow-sm'>
-          <ul class='list-unstyled my-auto'>
-            <li>One of the largest fires in recent history was in 1825<br />when a fire tore through Maine and New Brunswick, Canada,<br />burning 3 million acres of forest.</li>
-            <li class='d-none'>An average of 1.2 million acres of US woodland burn every year.</li>
-            <li class='d-none'>A large wildfire — or conflagration — is capable of modifying the local weather conditions<br />(AKA producing its own weather).</li>
-          </ul>
+        <!-- Carousel -->
+        <div class='container border-bottom shadow-sm'>
+          <div id='Carousel' class='carousel slide'>
+           <div class='carousel-inner'>
+             <div class='carousel-item active'>
+               <p class='textbox'>One of the largest fires in recent history was in 1825<br />when a fire tore through Maine and New Brunswick, Canada,<br />burning 3 million acres of forest.</p>
+             </div>
+             <div class='carousel-item'>
+               <p class='textbox'>An average of 1.2 million acres of <br />US woodland burn<br /> every year.</p>
+             </div>
+             <div class='carousel-item'>
+               <p class='textbox'>A large wildfire, or conflagration,<br />is capable of modifying the local weather conditions<br />(AKA producing its own weather).</p>
+             </div>
+            </div>
+          </div>
         </div>
     <!-- Main -->
     <main>
