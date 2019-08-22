@@ -6,6 +6,8 @@
     <meta name='viewport' content='width=device-width,initial-scale=1'>
     <!-- Bootstrap CSS -->
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Prompt&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
   <link rel='stylesheet' href='../src/css/index.css'>
   <link rel='icon' href='fire.ico' type='image/x-icon'>
@@ -17,7 +19,7 @@
           <h5 class='my-0 font-weight-normal'>FireFlight</h5>
           <!-- Start Navigation -->
           <nav class='nav navbar-expand-md'>
-            <ul class='navbar-nav'>
+            <ul class='ml-5 navbar-nav'>
               <li class='nav-item'><a class='nav-link p-2 text-dark' href='#'><strong>Home</strong></a></li>
               <li class='nav-item'><a class='nav-link p-2 text-dark' href='#'><strong>About</strong></a></li>
               <li class='nav-item'><a class='nav-link p-2 text-dark' href='#'><strong>Contact</strong></a></li>
@@ -31,13 +33,30 @@
             </form>
           </div>
         </div>
-        <!-- Slider -->
-        <div class='slider border-bottom shadow-sm'>
-          <ul class='list-unstyled my-auto'>
-            <li>One of the largest fires in recent history was in 1825<br />when a fire tore through Maine and New Brunswick, Canada,<br />burning 3 million acres of forest.</li>
-            <li class='d-none'>An average of 1.2 million acres of US woodland burn every year.</li>
-            <li class='d-none'>A large wildfire — or conflagration — is capable of modifying the local weather conditions<br />(AKA producing its own weather).</li>
-          </ul>
+        <!-- Carousel of Wildfire Facts -->
+        <div class='container border-bottom shadow-sm'>
+          <div id='Carousel' class='carousel slide'>
+           <div class='carousel-inner'>
+             <div class='carousel-item active'>
+               <p class='textbox'>One of the largest fires in recent history was in 1825<br />when a fire tore through Maine and New Brunswick, Canada,<br />burning 3 million acres of forest.</p>
+             </div>
+             <div class='carousel-item'>
+               <p class='textbox'>An average of 1.2 million acres of <br />US woodland burn<br /> every year.</p>
+             </div>
+             <div class='carousel-item'>
+               <p class='textbox'>A large wildfire, or conflagration,<br />is capable of modifying the local weather conditions<br />(AKA producing it's own weather).</p>
+             </div>
+             <div class='carousel-item'>
+              <p class='textbox'>California accounted for the highest number of<br />structures lost in one state in 2018<br />due to the number of significant fires.</p>
+             </div>
+             <div class='carousel-item'>
+              <p class='textbox'>Contact your local planning/zoning office to find out if your<br />home is in a high wildfire risk area, and if there are specific<br />local or county ordinances you should be following.</p>
+              </div>
+              <div class='carousel-item'>
+                <p class='textbox'>Over the past 12 years, every state in the Western U.S.<br />has experienced an increase in the average number of large wildfires<br />per year compared to the annual average from 1980 to 2000.</p>
+                </div>
+            </div>
+          </div>
         </div>
     <!-- Main -->
     <main>

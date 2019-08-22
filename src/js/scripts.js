@@ -1,4 +1,5 @@
 $(function() {
+    $('#Carousel').carousel({interval: 8500});
     $('.nav-link').mouseenter(function(){
         $(this).css('text-decoration', 'underline');
     });
