@@ -5,14 +5,11 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-nav {
-  margin: 0 auto;
-}
 .carousel-inner .textbox {
   height: 4em;
   text-align: center;
 }
-.jumbotron {
+.jumbotron-fluid {
   background-image: url('../images/wildfire.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,10 +17,10 @@ nav {
   height: 78.5vh;
   width: 100%;
 }
-.jumbotron h1 {
-  font-family: 'Prompt', sans-serif;
-}
-.jumbotron .lead {
-  text-align: left;
-  width: 42.5%;
+.jumbotron-fluid .jumbo-text {
+  position: absolute;
+  bottom: 250px;
+  left: 5rem;
+  text-align: justify;
+  width: 37.5%;
 }
