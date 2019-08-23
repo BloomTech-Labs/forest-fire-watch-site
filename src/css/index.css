@@ -1,0 +1,59 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+.carousel .textbox {
+  height: 4em;
+  text-align: center;
+}
+@media (max-width: 575px) {
+  .carousel .textbox {
+    height: 5em;
+  }
+}
+.jumbotron-fluid {
+  background-image: url('../images/wildfire.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  height: 75vh;
+  width: 100%;
+}
+.jumbotron-fluid .jumbo-text {
+  position: absolute;
+  top: 15em;
+  left: 5rem;
+  text-align: left;
+  width: 37.5%;
+}
+@media (max-width: 768px) {
+  .jumbotron-fluid .jumbo-text {
+    left: 0;
+    text-align: center;
+    top: 15em;
+    width: 100%;
+  }
+}
+.jumbotron-fluid .jumbo-text h1 {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .jumbotron-fluid .jumbo-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+.jumbotron-fluid .jumbo-text p {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .jumbotron-fluid .jumbo-text p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 12.5px auto;
+    width: 50%;
+  }
+}
