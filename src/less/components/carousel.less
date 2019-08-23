@@ -1,8 +1,14 @@
-.carousel-inner {
+@mediaSm: ~'(max-width: 575px)';
+
+.carousel {
     
     .textbox {
         height: 4em;
         text-align: center;
+
+        @media @mediaSm {
+           height: 5em;
+        }
     }
 }
 

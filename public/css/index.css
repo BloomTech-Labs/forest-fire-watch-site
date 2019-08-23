@@ -2,7 +2,8 @@ html,
 body {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
+  flex-wrap: wrap;
+  margin: 0;
   padding: 0;
 }
 .carousel-inner .textbox {
@@ -21,6 +22,6 @@ body {
   position: absolute;
   bottom: 250px;
   left: 5rem;
-  text-align: justify;
+  text-align: left;
   width: 37.5%;
 }
