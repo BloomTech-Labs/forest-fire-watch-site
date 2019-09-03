@@ -10,11 +10,11 @@ body {
   text-align: center;
 }
 .jumbotron {
-  background-image: url('../images/wildfire.jpg');
+  background-image: url('../../public/images/wildfire.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   color: #FFF;
-  height: 78vh;
+  height: 75vh;
   width: 100%;
 }
 .jumbotron .jumbo-text {
