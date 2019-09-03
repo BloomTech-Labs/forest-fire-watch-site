@@ -1,8 +1,5 @@
-// Escaped Values
-@mediaMd: ~'(max-width: 768px)';
-
-.jumbotron-fluid {
-    background-image: url('../images/wildfire.jpg');
+.jumbotron {
+    background-image: url('../../public/images/wildfire.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: #FFF;
@@ -16,30 +13,12 @@
         text-align: left;
         width: 37.5%;
 
-        @media @mediaMd {
-            left: 0;
-            text-align: center;
-            top: 15em;
-            width: 100%;
-        }
         h1 {
             font-weight: bold;
-
-            @media @mediaMd {
-                font-size: 3rem;
-                font-weight: bold;
-            }
         }
 
         p {
             font-weight: bold;
-
-            @media @mediaMd {
-                font-size: 1rem;
-                font-weight: bold;
-                margin: 12.5px auto;
-                width: 50%;
-            }
         }
     }
 }

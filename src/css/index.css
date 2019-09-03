@@ -1,0 +1,32 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+.carousel .textbox {
+  height: 4em;
+  text-align: center;
+}
+.jumbotron {
+  background-image: url('../../public/images/wildfire.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  height: 75vh;
+  width: 100%;
+}
+.jumbotron .jumbo-text {
+  position: absolute;
+  top: 15em;
+  left: 5rem;
+  text-align: left;
+  width: 37.5%;
+}
+.jumbotron .jumbo-text h1 {
+  font-weight: bold;
+}
+.jumbotron .jumbo-text p {
+  font-weight: bold;
+}
