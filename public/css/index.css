@@ -1,32 +1,25 @@
-html,
-body {
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
-  padding: 0;
+body, html {
+    height: 100%;
 }
-.carousel .textbox {
-  height: 4em;
-  text-align: center;
+
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/wildfire.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    margin-top: -300px;
+    position: relative;
 }
-.jumbotron {
-  background-image: url('../images/wildfire.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #FFF;
-  height: 78vh;
-  width: 100%;
+
+.hero-txt {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
 }
-.jumbotron .jumbo-text {
-  position: absolute;
-  top: 15em;
-  left: 5rem;
-  text-align: left;
-  width: 37.5%;
-}
-.jumbotron .jumbo-text h1 {
-  font-weight: bold;
-}
-.jumbotron .jumbo-text p {
-  font-weight: bold;
+
+#particles-js {
+    position: relative;
 }

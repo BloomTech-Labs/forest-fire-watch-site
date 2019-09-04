@@ -4,8 +4,8 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <meta name='viewport' content='width=device-width,initial-scale=1'>
-    <!-- Bootstrap CSS -->
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans|Prompt&display=swap' rel='stylesheet'>
     <!-- Custom CSS -->
@@ -15,73 +15,46 @@
   <link rel='icon' href='fire.ico' type='image/x-icon'>
     <title>FireFlight | Home</title>
   </head>
-  <body class='container-fluid'>
-      <div class='d-flex flex-sm-row align-items-center p-3 mb-3 bg-white border-bottom shadow-sm'>
-        <!-- Brand -->
-        <div class='col'>
-          <h5 class='my-0 font-weight-normal'>FireFlight</h5>
-        </div>
+  <body class='container'>
+      <nav class='pink darken-3'>
+        <div class='nav-wrapper'>
+          <!-- Brand -->
+          <a class='brand-logo left' href='#'>FireFlight</a>
           <!-- Login/Signup Buttons -->
-          <div class='col btn-group justify-content-end'>
-            <form class='form-inline'>
-          <a class='btn btn-light' href='#'>Sign up</a>
-          <a class='btn btn-light' href='#'>Login</a>
-            </form>
-          </div>
+          <ul class='right'>
+            <li><a href='#'>Sign up</a></li>
+            <li><a href='#'>Login</a></li>
+          </ul>
         </div>
+      </nav>
         <!-- Carousel of Wildfire Facts -->
-        <div class='container border-bottom shadow-sm'>
-          <div id='Carousel' class='carousel slide'>
-           <div class='carousel-inner'>
-             <div class='carousel-item active'>
-               <p class='textbox'>One of the largest fires in recent history was in 1825<br />when a fire tore through Maine and New Brunswick, Canada,<br />burning 3 million acres of forest.</p>
-             </div>
-             <div class='carousel-item'>
-               <p class='textbox'>An average of 1.2 million acres of <br />US woodland burn<br /> every year.</p>
-             </div>
-             <div class='carousel-item'>
-               <p class='textbox'>A large wildfire, or conflagration,<br />is capable of modifying the local weather conditions<br />(AKA producing it's own weather).</p>
-             </div>
-             <div class='carousel-item'>
-              <p class='textbox'>California accounted for the highest number of<br />structures lost in one state in 2018<br />due to the number of significant fires.</p>
-             </div>
-             <div class='carousel-item'>
-              <p class='textbox'>Contact your local planning/zoning office to find out if your<br />home is in a high wildfire risk area, and if there are specific<br />local or county ordinances you should be following.</p>
-              </div>
-              <div class='carousel-item'>
-                <p class='textbox'>Over the past 12 years, every state in the Western U.S.<br />has experienced an increase in the average number of large wildfires<br />per year compared to the annual average from 1980 to 2000.</p>
-                </div>
-            </div>
+          <div id='Carousel' class='carousel carousel-slider center'>
+             <p class='carousel-item'>One of the largest fires in recent history was in 1825<br/>when a fire tore through Maine and New Brunswick, Canada,<br/>burning 3 million acres of forest.</p>
+             <p class='carousel-item'>An average of 1.2 million acres of <br/>US woodland burn<br/> every year.</p>
+             <p class='carousel-item'>A large wildfire, or conflagration,<br/>is capable of modifying the local weather conditions<br/>(AKA producing it's own weather).</p>
+             <p class='carousel-item'>California accounted for the highest number of<br/>structures lost in one state in 2018<br/>due to the number of significant fires.</p>
+             <p class='carousel-item'>Contact your local planning/zoning office to find out if your<br/>home is in a high wildfire risk area, and if there are specific<br/>local or county ordinances you should be following.</p>
+              <p class='carousel-item'>Over the past 12 years, every state in the Western U.S.<br/>has experienced an increase in the average number of large wildfires<br/>per year compared to the annual average from 1980 to 2000.</p>
           </div>
-        </div>
     <!-- Main -->
-    <main>
-        <div class='jumbotron mt-1'>
-          <div id='particles-js'></div>
-          <div class='container'>
-            <div class='jumbo-text'>
-              <h1>Get Alerts</h1> 
-              <hr class="my-1">
-              <h1>Be Prepared</h1>
-              <p class='lead'>Community is more than just your spouse and kids - it's your neighbors and family too.</p>
-              <p class='lead'>Know when Forest Fires are coming and be a part of keeping your entire community safe.</p>
-              <p><a class='btn btn-outline-light btn-lg' href='#' role='button'>Sign Up &raquo;</a></p>
-            </div>
+        <div class='hero-img'>
+            <div class='hero-txt'>
+                <div id='particles-js'></div>
+              <h1>Get Alerts<br/>Be Prepared</h1>
+              <p>Community is more than just your spouse and kids - it's your neighbors and family too.</p>
+              <p>Know when forest fires are coming and be a part of keeping your entire community safe.</p>
+              <p><a class='btn pink darken-3' href='#'>Learn More &raquo;</a></p>
             </div>
           </div>
-    </main>
     <!-- jQuery -->
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-    <!-- Popper JS -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
-    <!-- Bootstrap JS -->
-    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Particles -->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <!-- Custom Scripts -->
     <script>particlesJS.load('particles-js', 'particles.json', function() {
       console.log('particles.json loaded');
     });</script>
-    <script src='js/scripts.js'></script>
+    <script src='./js/scripts.js'></script>
   </body>
 </html>

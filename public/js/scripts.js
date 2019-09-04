@@ -1,3 +1,8 @@
-$(function() {
-    $('#Carousel').carousel({interval: 8500});
+$(document).ready(function() {
+  $('.carousel.carousel-slider').carousel({
+    duration: 200,
+    fullWidth: true,
+    indicators: true
+  });
 });
+
