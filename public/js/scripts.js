@@ -1,3 +1,6 @@
-$(function() {
-    $('#Carousel').carousel({interval: 8500});
+$(document).ready(function() {
+  $('#Carousel').carousel({
+    fullWidth: true,
+  });
 });
+
