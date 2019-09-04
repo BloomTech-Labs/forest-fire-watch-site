@@ -4,12 +4,10 @@
 ### This is the landing page for the [FireFlight App](https://www.fireflightapp.com/)
 
 ## Technology Used
+- **HTML**
 - **Materialize CSS**
-- **Less**
-- **Javascript**
 - **Particles.js**
 - **JSON**
-- **npm**
 - **jQuery**
 
 ## Authors / Acknowledgements

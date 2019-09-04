@@ -1,8 +1,6 @@
 $(document).ready(function() {
-  $('.carousel.carousel-slider').carousel({
-    duration: 200,
+  $('#Carousel').carousel({
     fullWidth: true,
-    indicators: true
   });
 });
 
