@@ -2,10 +2,6 @@ body, html {
     height: 100%;
 }
 
-.brand-logo {
-    margin-left: 7.5px;
-}
-
 .hero-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/wildfire.jpg');
     background-repeat: no-repeat;
@@ -27,4 +23,8 @@ body, html {
 
 .cta {
     border: 1px ridge #FFF;
+}
+
+.cta:hover {
+    border: 2px inset #999;
 }
