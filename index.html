@@ -11,14 +11,15 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans|Prompt&display=swap' rel='stylesheet'>
     <!-- Custom CSS -->
   <link rel='stylesheet' href='./public/css/index.css'> 
-  <link rel='icon' href='fire.ico' type='image/x-icon'>
+  <link rel='icon' href='/fire.ico' type='image/x-icon'>
     <title>FireFlight | Home</title>
   </head>
   <body>
       <nav class='blue-grey darken-4'>
         <div class='nav-wrapper'>
           <!-- Brand -->
-          <a class='brand-logo left' href='https://fireflight.netlify.com/'>FireFlight</a>
+          <div id='mouseListener' class='brand-logo center'>FireFlight</div>
+          <div id='fireEffect' class='center'></div>
         </div>
       </nav>
         <!-- Carousel of Wildfire Facts -->
@@ -42,12 +43,13 @@
           </div>
     <!-- jQuery -->
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <!-- Materialize JS -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'></script>
     <!-- Particles -->
     <script src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
     <!-- Custom Scripts -->
     <script>particlesJS.load('particles-js', 'particles.json', function() {
-      console.log('particles.json loaded');
+      console.log('particles loaded');
     });</script>
     <script src='./public/js/scripts.js'></script>
   </body>
