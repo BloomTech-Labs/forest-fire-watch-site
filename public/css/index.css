@@ -2,8 +2,14 @@ body, html {
     height: 100%;
 }
 
+.logo {
+    height: 50px;
+    padding: 5px;
+    width: 50px;
+}
+
 .hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/wildfire.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/wildfire.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 82%;
@@ -14,17 +20,24 @@ body, html {
 .hero-txt {
     color: white;
     position: absolute;
-    text-align: justify;
+    text-align: left;
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
-    width: 35%;
+    width: 37%;
 }
 
 .cta {
+    background-color: #FFF;
     border: 1px ridge #FFF;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 5px;
+    width: 65%;
 }
 
 .cta:hover {
+    background-color: #000;
     border: 2px inset #999;
+    color: #FFF;
 }
