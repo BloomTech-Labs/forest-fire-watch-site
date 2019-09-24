@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     background-color: #111;
     height: 100vh;
     margin: 0 auto;
@@ -22,6 +23,7 @@ a:hover {
 }
 
 .logo-text {
+    margin: 0;
     position: relative;
 }
 
@@ -37,6 +39,11 @@ a:hover {
     color: white;
     position: relative;
     text-align: center;
+}
+
+.sub-text {
+    margin: 0 auto;
+    width: 60%;
 }
 
 .btn {
@@ -57,7 +64,7 @@ a:hover {
 }
 
 /* Mobile Styles */
-@media screen and (max-width: 576px) {   
+@media screen and (max-width: 576px) {
 
     .FFlogo {
         margin-top: 20%;
@@ -71,11 +78,11 @@ a:hover {
         color: #FFF;
         text-decoration: none;
     }
-    
+
     a:hover {
         text-decoration: underline;
     }
-    
+
     h2 {
         font-size: 30px;
     }
@@ -84,8 +91,20 @@ a:hover {
         display: none;
     }
 
-    .btn {
+    .cta {
         font-size: 17px;
-        height: 55px;
+        height: 50px;
+        padding: 5px;
+    }
+
+    .cta:hover {
+        text-decoration: none;
+    }
+}
+
+/* XL Screen View */
+@media screen and (min-width: 1020px) {
+    .cta {
+        margin-top: -15%;
     }
 }
