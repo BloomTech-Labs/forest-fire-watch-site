@@ -8,15 +8,6 @@ html {
     max-height: 100vh;
 }
 
-a {
-    color: #FFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
 .FFlogo {
     margin-top: 5%;
     position: relative;
@@ -57,11 +48,23 @@ a:hover {
     width: 65%;
 }
 
-.cta:hover {
+.btn:hover {
     background-color: #000;
     border: 2px inset #999;
+    cursor: pointer;
     color: #FFF;
 }
+
+.member-link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.member-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
 /* Mobile Styles */
 @media screen and (max-width: 576px) {
@@ -74,15 +77,6 @@ a:hover {
         display: none;
     }
 
-    a {
-        color: #FFF;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
     h2 {
         font-size: 30px;
     }
@@ -91,13 +85,13 @@ a:hover {
         display: none;
     }
 
-    .cta {
+    .btn {
         font-size: 17px;
         height: 50px;
         padding: 5px;
     }
 
-    .cta:hover {
+    .btn:hover {
         text-decoration: none;
     }
 }
