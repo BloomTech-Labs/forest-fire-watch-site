@@ -18,6 +18,21 @@ html {
     position: relative;
 }
 
+hr {
+    color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+}
+
+.member-link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.member-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .hero-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/wildfire.jpg');
     background-repeat: no-repeat;
@@ -46,6 +61,7 @@ html {
     height: 50px;
     padding-top: 5px;
     width: 65%;
+    z-index: 10;
 }
 
 .btn:hover {
@@ -55,20 +71,8 @@ html {
     color: #FFF;
 }
 
-.member-link {
-    color: #FFF;
-    text-decoration: none;
-}
-
-.member-link:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-
 /* Mobile Styles */
 @media screen and (max-width: 576px) {
-
     .FFlogo {
         margin-top: 20%;
     }
@@ -85,20 +89,18 @@ html {
         display: none;
     }
 
-    .btn {
-        font-size: 17px;
-        height: 50px;
-        padding: 5px;
-    }
-
-    .btn:hover {
-        text-decoration: none;
+    .cta {
+        margin-top: 25%;
     }
 }
 
 /* XL Screen View */
 @media screen and (min-width: 1020px) {
     .cta {
-        margin-top: -15%;
+        margin-top: 10%;
+    }
+
+    .btn {
+        width: 35%;
     }
 }
